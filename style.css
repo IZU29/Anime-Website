@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    background: rgba(0, 0, 0, 0.95);
+    /* background-size: 100% , 100%; */
+    /* background-repeat: none; */
+    color: white;
+    font-family: Montserrat , Arial;
+}
+
+.header{
+    /* position: fixed; */
+    /* width: 97.5%; */
+    background: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(20px);
+    display: flex;
+    z-index: 1000;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins , Arial;
+    padding: 16px;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.header p{
+    display: flex;
+    align-items: center;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid white; */
+    width: 40%;
+    /* justify-content: space-between; */
+}
+.header ul li{
+    /* border:1px solid blue; */
+    height : 50px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-items */
+    border-radius: 10px;
+}
+.header ul li:hover{
+    background: #b10909;
+    /* padding: 16px; */
+    
+}
+.header a{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    background-color: #b10909;
+    height: 50px;
+    width: 10%;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    transition: backgroundColor 2s,border 1s,color 1s;
+}
+
+.header a:hover{
+    background-color: white;
+    color: #b10909;
+    /* border: 1px solid #093eb1; */
+}
+.newRelease h4{
+    /* border: 1px solid green; */
+    text-align: center;
+    font-weight: 200;
+    color: #b10909;
+    font-size: 30px;
+    font-family: Poppins;
+}
+#imageslider{
+    /* background: url(./assets/images/51.jpeg); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+.switchslides{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    
+}
+.switchslides span{
+    /* border: 1px solid green; */
+    background: transparent;
+    backdrop-filter: blur(25px);
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.newRelease{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    /* border: 1px solid white; */
+}
+.newRelease .moviesList{
+    /* border: 1px solid red; */
+    /* height: 80%; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.newRelease .moviesList .moviebox{
+    height: 380px;
+    width: 200px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 2px; */
+    width: 18%;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.137);   
+    backdrop-filter: blur(20px);
+}
+
+.newRelease .moviesList .moviebox img{
+    height: 85%;
+    width: 100%;
+}
+
+.newRelease .moviesList .moviebox .animeName{
+    /* border: 1px solid blue; */
+    margin: 0;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Montserrat,'Times New Roman', Times, serif;
+    height: 10%;
+    
+}
+
+.animeRating{
+    /* border: 1px solid blue; */
+    margin: 0;
+    font-size: 10px;
+    font-weight: 100;
+    height: 10%;
+}
